@@ -1,0 +1,16 @@
+#landing-intro {
+    text-align: center;
+}
+
+#landing-heading {
+    text-align: center;
+}
+
+.parent {
+    display: flex;
+    height: 100vh;
+}
+
+.child {
+    margin:auto;
+}

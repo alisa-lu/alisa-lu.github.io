@@ -41,6 +41,12 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 4. What online resources did you consult when completing this assignment? (list specific URLs)
 - [W3Schools Bootstrap navbar reference](https://www.w3schools.com/bootstrap/bootstrap_navbar.asp)
 - [Boostrap navbar documentation](https://getbootstrap.com/docs/4.3/components/navbar/)
+- [Example Bootstraplanding page](https://getbootstrap.com/docs/4.0/examples/cover/#)
+- [Centering a div veritcally: getting the div to be the whole height of the page](https://stackoverflow.com/questions/59036453/how-to-extend-a-div-to-fill-the-whole-page)
+- [Image that helped me with centering a div vertically](https://www.freecodecamp.org/news/content/images/2020/08/centering-css-tweet.jpeg)
+- [Used this to help me debug my navbar](https://stackoverflow.com/questions/55297014/toggle-menu-disappears-instantly)
+- [html hyperlinks](https://www.w3schools.com/html/html_links.asp)
+- [Bootstrap cards](https://getbootstrap.com/docs/4.0/components/card/)
 
 
 5. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
