@@ -10,7 +10,9 @@ EMAIL: alisasl@uci.edu
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="Alisa Lu">
-  <meta name="description" content="Alisa Lu's Portfolio">
+  <meta name="description" content="Hello, I'm Alisa, and I use she/her pronouns! As a creative writer and programmer, I'm interested in creating enjoyable 
+    user experiences and incorporating storytelling in code, especially through design and interactive experiences.">
+  <link rel="shortcut icon" href="images/icon_tulips.ico"/>
   <!-- link to an external stylesheet here! -->
   <link rel="stylesheet" href="style.css">
   <!-- link to Bootstrap here! -->
@@ -31,7 +33,7 @@ EMAIL: alisasl@uci.edu
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#about">About<span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item active">
           <a class="nav-link" href="#projects">Projects</a>
@@ -47,20 +49,9 @@ EMAIL: alisasl@uci.edu
   <section id="home">
     <div class="parent">
       <div class="child container">
-        <h1 id="landing-intro">Meet Alisa!</h1>
-        <p id="landing-heading">Alisa is a second year computer science major at UC Irvine specializing in Information and minoring in Informatics.</p>
-      </div>
-    </div>
-  </section>
-
-
-  <!-- about page -->
-  <section id="about">
-    <div class="parent">
-      <div class="child container">
-        <p id="landing-heading">Hello, I'm Alisa, and I use she/her pronouns! As a creative writer and programmer, I'm interested in creating enjoyable 
-          user experiences and incorporating storytelling in code, especially through design and interactive experiences. Currently, I am an undergraduate 
-          researcher at the the Advanced Power and Energy Program at UC Irvine, where I contribute code to renewable energy and connected and autonomous 
+        <h1 style="color:#003f5c" class="center-text">Hello, I'm Alisa!</h1>
+        <h4 style="color:#58508d" class="center-text">I am a second year computer science major at UC Irvine minoring in Informatics.</h4>
+        <p style="color:#bc5090" class="center-text">Currently, I am an undergraduate researcher at the the Advanced Power and Energy Program at UC Irvine, where I contribute code to renewable energy and connected and autonomous 
           vehicle research. I am also the Secretary of <a href="https://wics.ics.uci.edu/">Women in Information and Computer Sciences</a> at UCI, and my
           previous experiences have been at IBM and <a href="https://zotbins.github.io/">Zotbins</a>.</p>
       </div>
@@ -70,10 +61,38 @@ EMAIL: alisasl@uci.edu
 
   <!-- projects page -->
   <section id="projects">
-    <div class="parent">
-      <div class="child container">
-        <h1 id="landing-intro">Meet Alisa!</h1>
-        <p id="landing-heading">Alisa is a second year computer science major at UC Irvine specializing in Information and minoring in Informatics.</p>
+    <div class="container parent">
+      <div class="child">
+        <ul>
+          <li>
+            <a style="color:#58508d" href="https://devpost.com/software/zotty-potty" target="_blank"><strong>Zotty Potty</strong></a></li>
+          <ul>
+            <li>Python, Django, SQLite, HTML/CSS, JavaScript</li>
+            <li>Web-based map interface that locates bathrooms on campus according to user needs</li>
+            <li>Includes algorithms and APIs for geolocation, bathroom rating, and filtering features</li>
+          </ul>
+          <li>
+            <a href="https://github.com/alisa-lu/birdwatching-memory-game" target="_blank"><strong>Birdwatching: A Light and Sound Memory Game</strong></a>
+          </li>
+          <ul>
+            <li>HTML/CSS, JavaScript</li>
+            <li>Bird-themed memory game with thoughtful interface, game logic, and functionality</li>
+            <li>Includes timer, bird calls, and images, to train user in bird recognition</li>
+          </ul>
+          <li><strong>Direct Messenger and Journaling Platform</strong>></li>
+          <ul>
+            <li>Python, Tkinter</li>
+            <li>Online journaling and messaging using socket programming</li>
+            <li>Supports keyword transclusion in journal posts and messages via public APIs</li>
+            <li>Encryption and public key authentication for user profiles</li>
+          </ul>
+          <li><strong>Authentication Service</strong></li>
+          <ul>
+            <li>C++</li>
+            <li>Command line interface that validates username/password combinations</li>
+          </ul>
+        </ul>
+ 
       </div>
     </div>
   </section>
@@ -81,19 +100,27 @@ EMAIL: alisasl@uci.edu
   <!-- contact page -->
   <section id="contact">
     <div class="parent">
-      <div class="child container">
-        <h1 id="landing-intro">Meet Alisa!</h1>
-        <p id="landing-heading">Alisa is a second year computer science major at UC Irvine specializing in Information and minoring in Informatics.</p>
+      <div class="flex-container child">
+        <div>
+          <a href="https://github.com/alisa-lu" target="_blank">
+            <img src="images/github.png" alt="github icon" class="social-icon">
+          </a>
+        </div>
+        <div>
+          <a href="https://linkedin.com/in/alisasl" target="_blank">
+            <img src="images/linkedin.png" alt="linkedin icon" class="social-icon">
+          </a>
+        </div>
       </div>
     </div>
   </section>
 
 
-  <p>
+  <!-- <p>
     <a href="http://validator.w3.org/check?uri=referer">
        W3C validator
     </a>
-  </p>
+  </p> -->
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

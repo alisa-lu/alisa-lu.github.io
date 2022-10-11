@@ -1,8 +1,6 @@
-#landing-intro {
-    text-align: center;
-}
 
-#landing-heading {
+
+.center-text {
     text-align: center;
 }
 
@@ -13,4 +11,31 @@
 
 .child {
     margin:auto;
+}
+
+.social-icon {
+    height:10vh;
+}
+
+.flex-container {
+    display:flex;
+    justify-content:center;
+}
+
+.flex-container > div {
+    margin:5px;
+    padding:5px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+li {
+    color:#bc5090
+}
+
+a {
+    text-decoration:none;
+    color: inherit;
 }
